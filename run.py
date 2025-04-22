@@ -77,7 +77,7 @@ def fetch_data(api_url):
 
 def main():
     input_value = os.environ.get('input_value', 'default_value')
-    task_type = os.environ.get('task_type', 'text')  # Выбор типа задачи
+    task_type = os.environ.get('task_type', 'text')  # Selecting a task type
 
     if input_value == 'default_value':
         result = "Error: No input data provided!"
